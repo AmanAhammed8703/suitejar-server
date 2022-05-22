@@ -1,0 +1,23 @@
+{
+  "name": "suitejar-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "extract-urls": "^1.3.2",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongo": "^0.1.0",
+    "morgan": "~1.9.1",
+    "node-fetch": "^3.2.4",
+    "nodemon": "^2.0.16",
+    "wordcount": "^1.1.1"
+  }
+}
